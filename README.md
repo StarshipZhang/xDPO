@@ -2,7 +2,6 @@
 
 # Model Checkpoints
 
-The below are initialized with StableDiffusion v1.5 models and trained as described in the paper (replicable with launchers/ scripts assuming 2 4090 GPUs,)
 The StableDiffusion1.5 Model Checkpoints can be found at this anyonymous [link](https://mega.nz/folder/BO9lGDJa#ORq-W39B6QJsVPUBcACIEA)
 
 
@@ -40,7 +39,7 @@ python   clip_score.py   --img_path <image output directory>
 
 python   HPSv2_Eval.py   --img_path   'checkpoint-6000'
 python   PickScore.py   --img_path  'checkpoint-6000'
-python   Aesthetics_score.py  --img_path  '_checkpoint-6000'
+python   Aesthetics_score.py  --img_path  'checkpoint-6000'
 python   image_reward.py   --img_path  'checkpoint-6000'
 python   clip_score.py   --img_path 'checkpoint-6000'
 
