@@ -30,7 +30,7 @@ python  HPSv2_sd15.py --unet_model_name   "mhdang/dpo-sd1.5-text2image-v1"
 ```
 
 ## Evaluation
-To obtain the win rates and scores reported in this study, execute the following shell commands: 
+To obtain the scores reported in this study, execute the following shell commands: 
 ```shell
 python   HPSv2_Eval.py   --img_path   <image output directory>
 python   PickScore.py   --img_path  <image output directory>
@@ -38,12 +38,12 @@ python   Aesthetics_score.py  --img_path  <image output directory>
 python   image_reward.py   --img_path  <image output directory>
 python   clip_score.py   --img_path <image output directory>
 
-python   HPSv2_Eval.py   --img_path   '000/0919_checkpoint-7000'
-python   PickScore.py   --img_path  '000/0919_checkpoint-7000'
-python   Aesthetics_score.py  --img_path  '000/0919_checkpoint-7000'
-python   image_reward.py   --img_path  '000/0919_checkpoint-7000'
-python   clip_score.py   --img_path '000/0919_checkpoint-7000'
-python   clip_score.py   --img_path '000/0919_checkpoint-7000'
+python   HPSv2_Eval.py   --img_path   'checkpoint-6000'
+python   PickScore.py   --img_path  'checkpoint-6000'
+python   Aesthetics_score.py  --img_path  '_checkpoint-6000'
+python   image_reward.py   --img_path  'checkpoint-6000'
+python   clip_score.py   --img_path 'checkpoint-6000'
+
 ```
 
 
